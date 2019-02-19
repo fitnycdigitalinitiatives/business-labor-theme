@@ -13,6 +13,19 @@ src:url("HalyardTextLt-It.otf");
 font-style:italic;
 font-weight:300;
 }
+@font-face {
+font-family:"Halyard Text";
+src:url("HalyardText-Reg.otf");
+font-style:normal;
+font-weight:400;
+}
+
+@font-face {
+font-family:"Halyard Text";
+src:url("HalyardText-It.otf");
+font-style:italic;
+font-weight:400;
+}
 
 @font-face {
 font-family:"Halyard Text";
