@@ -41,7 +41,7 @@
       </div>
     </div>
 
-    <nav class="navbar navbar navbar-expand-md">
+    <nav class="navbar navbar navbar-expand-md mt-5 mt-md-0">
       <div class="container">
         <a class="navbar-brand d-md-none" href="<?php echo esc_url( home_url( '/' )); ?>">
           <img src="<?php echo get_template_directory_uri() . '/inc/assets/images/blh-brand.png'; ?>" alt="FIT Business / Labor">

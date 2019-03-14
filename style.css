@@ -172,22 +172,36 @@ footer #neh-logo {
 
 /* =Homepage
 -------------------------------------------------------------- */
+#home-jumbotron {
+  border: 1px solid rgba(0,0,0,0.125);
+  background-color: #fff;
+}
+#home-title {
+  font-size: 1rem;
+}
 @media (min-width: 768px) {
   #home-title {
-    font-size: 3.5rem;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #home-title {
+    font-size: 1.75rem;
     font-weight: 300;
     line-height: 1.2;
   }
 }
 @media (min-width: 1200px) {
   #home-title {
-    font-size: 4.5rem;
+    font-size: 2.25rem;
   }
 }
-#featured-posts {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
+@media (min-width: 576px) {
+  #featured-posts {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
 }
 #featured-posts .card {
   margin-bottom: 1.25rem;
@@ -197,7 +211,46 @@ footer #neh-logo {
 }
 /* =Posts
 -------------------------------------------------------------- */
-.page .entry-header, .single-post .entry-header {
+.page .entry-header, .single-post .entry-header, .page-header {
   margin-bottom: 1.5rem;
   text-align: center;
+}
+.entry-content p, .entry-content iframe, .entry-content .embed-responsive {
+  margin-bottom: 1.5rem;
+}
+/* =Categories/Archive/Author
+-------------------------------------------------------------- */
+@media (min-width: 576px) {
+  #post-cards {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (min-width: 992px) {
+  #post-cards {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+  #post-cards .card h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  #post-cards {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+  #post-cards .card h2 {
+    font-size: 2rem;
+  }
+}
+#post-cards .card {
+  margin-bottom: 1.25rem;
+}
+#post-cards .card-img-overlay {
+  background-color: rgba(0,0,0,0.2);
+  padding: 1rem;
 }

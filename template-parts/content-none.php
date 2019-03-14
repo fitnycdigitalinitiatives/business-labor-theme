@@ -11,7 +11,7 @@
 
 <section class="no-results not-found">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'business-labor-theme' ); ?></h1>
+		<h1 class="page-title text-center"><?php esc_html_e( 'Sorry!', 'business-labor-theme' ); ?></h1>
 	</header><!-- .page-header -->
 
 	<div class="page-content">
@@ -28,10 +28,8 @@
 
 		else : ?>
 
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'business-labor-theme' ); ?></p>
-			<?php
-				get_search_form();
+			<p class="lead"><?php esc_html_e( 'Unfortunately, this part of the site is still under development. Please check back soon!', 'business-labor-theme' ); ?></p>			
 
-		endif; ?>
+		<?php endif; ?>
 	</div><!-- .page-content -->
 </section><!-- .no-results -->

@@ -16,9 +16,13 @@ get_header(); ?>
 
 	<section id="primary" class="content-area col-sm-12 col-md-12">
 		<main id="main" class="site-main" role="main">
-			<h1 class="text-center font-italic mb-5" id="home-title">Teaching Business and Labor History to Art and Design Students</h1>
+			<div class="jumbotron" id="home-jumbotron">
+				<h1 class="font-italic mb-4" id="home-title">Teaching Business and Labor History to Art and Design Students</h1>
+				<p class="lead mb-0">Welcome to the project site for <em>Teaching Business and Labor History to Art and Design Students</em>, an NEH-funded project to create curriculum for art and design students in order to educate them on the history of working as an artist or designer. On this site, you can find information on the development of this project, as well as a collection of resources, curricular materials and academic studies developed for this project.</p>
+			</div>
+
       <?php if ($featured_posts = get_posts(array('category_name' => 'Featured'))): ?>
-        <div class="card-columns pt-4" id="featured-posts">
+        <div class="card-columns" id="featured-posts">
         <?php foreach ( $featured_posts as $post ) : setup_postdata( $post ); ?>
           <a href="<?php the_permalink(); ?>" class="card text-white">
             <?php if (has_post_thumbnail()): ?>

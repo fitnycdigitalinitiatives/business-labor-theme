@@ -163,7 +163,7 @@ add_action( 'widgets_init', 'wp_bootstrap_starter_widgets_init' );
  */
 function wp_bootstrap_starter_scripts() {
 	// load bootstrap css
-	wp_enqueue_style( 'business-labor-theme-bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css' );
+	wp_enqueue_style( 'business-labor-theme-bootstrap-css', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' );
   // fontawesome cdn
   wp_enqueue_style( 'business-labor-fontawesome-cdn', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css' );
 	// load Business Labor Theme styles
@@ -177,8 +177,8 @@ function wp_bootstrap_starter_scripts() {
     wp_script_add_data( 'html5hiv', 'conditional', 'lt IE 9' );
 
 	// load bootstrap js
-  wp_enqueue_script('business-labor-theme-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js', array(), '', true );
-	wp_enqueue_script('business-labor-theme-bootstrapjs', 'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js', array(), '', true );
+  wp_enqueue_script('business-labor-theme-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', array(), '', true );
+	wp_enqueue_script('business-labor-theme-bootstrapjs', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array(), '', true );
   wp_enqueue_script('business-labor-theme-themejs', get_template_directory_uri() . '/inc/assets/js/theme-script.min.js', array(), '', true );
 	wp_enqueue_script( 'business-labor-theme-skip-link-focus-fix', get_template_directory_uri() . '/inc/assets/js/skip-link-focus-fix.min.js', array(), '20151215', true );
 
