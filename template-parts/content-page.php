@@ -31,7 +31,7 @@
 	</div><!-- .entry-content -->
 
 	<?php if ( get_edit_post_link() && !$enable_vc ) : ?>
-		<footer class="entry-footer">
+		<div class="entry-footer">
 			<?php
 				edit_post_link(
 					sprintf(
@@ -43,6 +43,6 @@
 					'</span>'
 				);
 			?>
-		</footer><!-- .entry-footer -->
+		</div><!-- .entry-footer -->
 	<?php endif; ?>
 </article><!-- #post-## -->

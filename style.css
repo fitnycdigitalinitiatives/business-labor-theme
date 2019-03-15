@@ -218,13 +218,36 @@ footer #neh-logo {
 .entry-content p, .entry-content iframe, .entry-content .embed-responsive {
   margin-bottom: 1.5rem;
 }
+.entry-content li {
+  margin-bottom: .5rem;
+}
+#comments {
+  border-top: 1px solid rgba(0,0,0,0.125);
+}
+#comments .comment-list {
+  padding-left: 0;
+}
+#comments .comment-list, #comments .comment-list .children {
+  list-style: none;
+}
 /* =Categories/Archive/Author
 -------------------------------------------------------------- */
+#post-cards .card h2 {
+  font-size: 1.75rem;
+}
 @media (min-width: 576px) {
   #post-cards {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+  }
+  #post-cards .card h2 {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 768px) {
+  #post-cards .card h2 {
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -244,7 +267,7 @@ footer #neh-logo {
     column-count: 3;
   }
   #post-cards .card h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 #post-cards .card {

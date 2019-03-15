@@ -10,7 +10,6 @@
  */
 
 ?>
-<?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</div><!-- #content -->
@@ -35,7 +34,6 @@
       </div>
 		</div>
 	</footer><!-- #colophon -->
-<?php endif; ?>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
