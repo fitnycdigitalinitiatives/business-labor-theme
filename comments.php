@@ -94,8 +94,8 @@ if ( post_password_required() ) {
     <?php comment_form( $args = array(
         'id_form'           => 'commentform',  // that's the wordpress default value! delete it or edit it ;)
         'id_submit'         => 'commentsubmit',
-        'title_reply'       => __( 'Leave a Reply', 'business-labor-theme' ),  // that's the wordpress default value! delete it or edit it ;)
-        'title_reply_to'    => __( 'Leave a Reply to %s', 'business-labor-theme' ),  // that's the wordpress default value! delete it or edit it ;)
+        'title_reply'       => __( '<label for="comment">Leave a Reply</label>', 'business-labor-theme' ),  // that's the wordpress default value! delete it or edit it ;)
+        'title_reply_to'    => __( '<label for="comment">Leave a Reply to %s</label>', 'business-labor-theme' ),  // that's the wordpress default value! delete it or edit it ;)
         'cancel_reply_link' => __( 'Cancel Reply', 'business-labor-theme' ),  // that's the wordpress default value! delete it or edit it ;)
         'label_submit'      => __( 'Post Comment', 'business-labor-theme' ),  // that's the wordpress default value! delete it or edit it ;)
 
