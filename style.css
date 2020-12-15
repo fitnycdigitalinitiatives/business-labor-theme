@@ -10,131 +10,135 @@ License URI: LICENSE
 Text Domain: business-labor-theme
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
 */
-
 /* =WordPress Core
 -------------------------------------------------------------- */
 .alignnone {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 .aligncenter,
 div.aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
+  display: block;
+  margin: 5px auto 5px auto;
 }
 
 .alignright {
-    float:right;
-    margin: 5px 0 20px 20px;
+  float: right;
+  margin: 5px 0 20px 20px;
 }
 
 .alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
+  float: left;
+  margin: 5px 20px 20px 0;
 }
 
 a img.alignright {
-    float: right;
-    margin: 5px 0 20px 20px;
+  float: right;
+  margin: 5px 0 20px 20px;
 }
 
 a img.alignnone {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 a img.alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
+  float: left;
+  margin: 5px 20px 20px 0;
 }
 
 a img.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wp-caption {
-    background: #fff;
-    border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
-    padding: 5px 3px 10px;
-    text-align: center;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
 }
 
 .wp-caption.alignnone {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 .wp-caption.alignleft {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 .wp-caption.alignright {
-    margin: 5px 0 20px 20px;
+  margin: 5px 0 20px 20px;
 }
 
 .wp-caption img {
-    border: 0 none;
-    height: auto;
-    margin: 0;
-    max-width: 98.5%;
-    padding: 0;
-    width: auto;
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
 }
 
 .wp-caption p.wp-caption-text {
-    font-size: 11px;
-    line-height: 17px;
-    margin: 0;
-    padding: 0 4px 5px;
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
 }
 
 /* Text meant only for screen readers. */
 .screen-reader-text {
-	border: 0;
-	clip: rect(1px, 1px, 1px, 1px);
-	clip-path: inset(50%);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute !important;
-	width: 1px;
-	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
 
 .screen-reader-text:focus {
-	background-color: #eee;
-	clip: auto !important;
-	clip-path: none;
-	color: #444;
-	display: block;
-	font-size: 1em;
-	height: auto;
-	left: 5px;
-	line-height: normal;
-	padding: 15px 23px 14px;
-	text-decoration: none;
-	top: 5px;
-	width: auto;
-	z-index: 100000;
-	/* Above WP toolbar. */
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
 }
 
 /* =General
 -------------------------------------------------------------- */
 body {
-  font-family: "Halyard Text",sans-serif;
+  font-family: "Halyard Text", sans-serif;
 }
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  font-family: "Halyard Text",sans-serif;
+  font-family: "Halyard Text", sans-serif;
   font-weight: 700;
 }
+
 img {
   height: auto;
   max-width: 100%;
   position: relative;
 }
+
 iframe {
   width: 100%;
 }
@@ -144,15 +148,19 @@ iframe {
 #fit-wordmark {
   background-color: #3c3c3c;
 }
+
 #fit-wordmark img {
   max-height: 40px;
 }
+
 #blh-brand {
   max-height: 75px;
 }
+
 .navbar-brand {
   padding-top: .1rem;
 }
+
 .navbar-brand img {
   max-height: 25px;
 }
@@ -163,27 +171,32 @@ footer {
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
 }
+
 footer #fit-suny-logo {
   max-height: 30px;
 }
+
 footer #neh-logo {
-  max-height: 75px;
+  max-height: 100px;
 }
 
 /* =Homepage
 -------------------------------------------------------------- */
 #home-jumbotron {
-  border: 1px solid rgba(0,0,0,0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
   background-color: #fff;
 }
+
 #home-title {
   font-size: 1rem;
 }
+
 @media (min-width: 768px) {
   #home-title {
     font-size: 1.25rem;
   }
 }
+
 @media (min-width: 992px) {
   #home-title {
     font-size: 1.75rem;
@@ -191,11 +204,13 @@ footer #neh-logo {
     line-height: 1.2;
   }
 }
+
 @media (min-width: 1200px) {
   #home-title {
     font-size: 2.25rem;
   }
 }
+
 @media (min-width: 576px) {
   #featured-posts {
     -webkit-column-count: 2;
@@ -203,77 +218,95 @@ footer #neh-logo {
     column-count: 2;
   }
 }
+
 #featured-posts .card {
   margin-bottom: 1.25rem;
 }
+
 #featured-posts .card-img-overlay {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
+
 /* =Posts
 -------------------------------------------------------------- */
 .page .entry-header, .single-post .entry-header, .page-header {
   margin-bottom: 1.5rem;
   text-align: center;
 }
+
 .entry-content p, .entry-content iframe, .entry-content .embed-responsive {
   margin-bottom: 1.5rem;
 }
+
 .entry-content li {
   margin-bottom: .5rem;
 }
+
 #comments {
-  border-top: 1px solid rgba(0,0,0,0.125);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
+
 #comments .comment-list {
   padding-left: 0;
 }
+
 #comments .comment-list, #comments .comment-list .children {
   list-style: none;
 }
+
 /* =Categories/Archive/Author
 -------------------------------------------------------------- */
 #post-cards .card h2 {
   font-size: 1.75rem;
 }
+
 @media (min-width: 576px) {
   #post-cards {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
   }
+
   #post-cards .card h2 {
     font-size: 1.25rem;
   }
 }
+
 @media (min-width: 768px) {
   #post-cards .card h2 {
     font-size: 1.5rem;
   }
 }
+
 @media (min-width: 992px) {
   #post-cards {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
   }
+
   #post-cards .card h2 {
     font-size: 1.5rem;
   }
 }
+
 @media (min-width: 1200px) {
   #post-cards {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
   }
+
   #post-cards .card h2 {
     font-size: 1.75rem;
   }
 }
+
 #post-cards .card {
   margin-bottom: 1.25rem;
 }
+
 #post-cards .card-img-overlay {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 1rem;
 }

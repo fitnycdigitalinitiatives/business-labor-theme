@@ -13,12 +13,12 @@
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</div><!-- #content -->
-    <?php get_template_part( 'footer-widget' ); ?>
+    <?php get_template_part('footer-widget'); ?>
 	<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?> mt-auto small" role="contentinfo">
 		<div class="container pt-5 pb-5">
       <div class="row justify-content-between">
 				<div class="col-md-5 text-center">
-					<img class="mb-3" src="<?php echo get_template_directory_uri() . '/inc/assets/images/NEH_h-logo_01_fullcolor.png'; ?>" alt="National Endowment for the Humanities Logo" id="neh-logo">
+					<img class="mb-3" src="<?php echo get_template_directory_uri() . '/inc/assets/images/NEH-Preferred-Seal.png'; ?>" alt="National Endowment for the Humanities Logo" id="neh-logo">
 					<p class="font-italic text-left">Teaching Business and Labor History to Art and Design Students has been made possible in part by a major grant from the National Endowment for the Humanities: Humanities Connections Implementation Grants.</p>
 					<p  class="text-left">NEH Policy Statement: Any views, findings, conclusions, or recommendations expressed in this Web resource, do not necessarily represent those of the National Endowment for the Humanities</p>
 				</div>
